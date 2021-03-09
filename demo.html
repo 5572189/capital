@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        div{
+            position: relative;
+            width: 140px;
+            margin: 50px auto;
+            font-size: 30px;
+            letter-spacing: 2px;
+        }
+        .title{
+            padding-top: 30px;
+        }
+        .icon{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            opacity: .5;
+            position: absolute;
+            background: #67B168;
+            animation: color 5s linear infinite;
+            margin-bottom: 10px;
+        }
+        @keyframes color {
+            0% {
+                transform: scale(.7) rotate(0deg);
+                left: 0;
+                top: 0px;
+                opacity: .5;
+            }
+            10%{
+                transform: scale(.5) rotate(180deg);
+                top: 20px;
+                left: 20px;
+                opacity: 1;
+            }
+            20%{
+                transform: scale(.7) rotate(360deg);
+                top: 0px;
+                left: 30px;
+                opacity: .5;
+            }
+            30%{
+                transform: scale(.5) rotate(540deg);
+                top: 20px;
+                left: 40px;
+                opacity: 1;
+            }
+            40%{
+                transform: scale(.7) rotate(720deg);
+                top: 0px;
+                left: 50px;
+                opacity: .5;
+            }
+            50% {
+                transform: scale(.5) rotate(900deg);
+                top: 20px;
+                left: 60px;
+                opacity: 1;
+            }
+            60%{
+                transform: scale(.7) rotate(1080deg);
+                top: 0px;
+                left: 70px;
+                opacity: .5;
+            }
+            70%{
+                transform: scale(.5) rotate(1260deg);
+                top:20px;
+                left: 80px;
+                opacity: 1;
+            }
+            80%{
+                transform: scale(.7) rotate(1440deg);
+                top: 0px;
+                left: 90px;
+                opacity: .5;
+            }
+            90%{
+                transform: scale(.5) rotate(1620deg);
+                top: 20px;
+                left: 100px;
+                opacity: 1;
+            }
+            100% {
+                transform: scale(.7) rotate(1800deg);
+                top: 0px;
+                left: 110px;
+                opacity: .5;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <span class="icon"></span>
+        <p class="title">Docume</p>
+    </div>
+</body>
+</html>
